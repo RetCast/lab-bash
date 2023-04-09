@@ -31,7 +31,7 @@ exercises  inputs  lorem  lorem-copy  modules  outputs  README.md
 2. Create a new directory called `new_dir`.
 ###Answer: mkdir new_dir
 3. Delete/Remove the directory `new_dir`.
-###Answer: rm -r new_dir/
+###Answer: rm -r new_dir/ 
 4. Copy the file `sed.txt` from the `lorem` folder and paste it to the folder `lorem-copy` folder.
 ###Answer:cp lorem/sed.txt lorem-copy/
 5. Copy the other two files from the `lorem folder` to `lorem-copy` folder in just one line using semicolon `;`.
