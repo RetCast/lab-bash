@@ -27,7 +27,7 @@ exercises  inputs  lorem  lorem-copy  modules  outputs  README.md
 ## Exercises
 
 1. Using the echo command print in console "Hello World". Here is some info about echo command [https://discuss.codecademy.com/t/what-are-practical-uses-of-the-echo-command/394788]
-**Answer: echo "Hello World"**
+  **Answer: echo "Hello World"**
 2. Create a new directory called `new_dir`.
 **Answer: mkdir new_dir**
 3. Delete/Remove the directory `new_dir`.
