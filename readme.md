@@ -50,22 +50,30 @@ exercises  inputs  lorem  lorem-copy  modules  outputs  README.md
 ### Answer: tail -n3 lorem-copy/sed.txt
 12. `sed` command is used to replace the text in a file. Use the `sed` command to replace all occurances of `et` with `ET` in the file `at.txt` file present in the folder `lorem`. You can use the following link to refer to `sed` commands [https://www.linode.com/docs/guides/manipulate-text-from-the-command-line-with-sed/]
 ### Answer: sed -i 's/et/ET/g' lorem/at.txt
-Check the contents of the sed.txt file using `cat` command.
+13. Check the contents of the sed.txt file using `cat` command.
 ### Answer: cat lorem/at.txt
-13. Find who is the system user. 
+14. Find who is the system user. 
 ### Answer: whoami
 15. Find the current path of the directory you are in.
 ### Answer: pwd
-17. List all files with the extension `.txt` in lorem folder.
-### Answer: 
-19. Count the rows in `sed.txt` file from lorem folder. Look concatenate `cat` and `wc` with the pipe `|`.
-### Answer: 
-21. Count the **files** which start with `lorem` in all directories.
-### Answer: 
+16. List all files with the extension `.txt` in lorem folder.
+### Answer: $ ls *.txt (It only works if I am inside the current directory)
+17. Count the rows in `sed.txt` file from lorem folder. Look concatenate `cat` and `wc` with the pipe `|`.
+### Answer: cat lorem/sed.txt | wc -l
+18. Count the **files** which start with `lorem` in all directories.
+### Answer: set lorem* ; echo "$#"
 
 ## Bonus
 
 20. Store your `name` in a variable with `read` command.
+### Answer: $ read input1 input2 input3
+### Daniel Retana Castañeda
 21. Print that variable.
+### Answer: $ echo $input1; echo $input2; echo $input3
+### Daniel
+### Retana
+### Castañeda
 22. Create a new directory named with variable `name`.
+### Answer: $ mkdir $input1
 23. Remove that directory.
+### Answer: rm -r $input1
