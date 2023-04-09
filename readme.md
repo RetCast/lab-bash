@@ -27,16 +27,27 @@ exercises  inputs  lorem  lorem-copy  modules  outputs  README.md
 ## Exercises
 
 1. Using the echo command print in console "Hello World". Here is some info about echo command [https://discuss.codecademy.com/t/what-are-practical-uses-of-the-echo-command/394788]
+###Answer: echo "Hello World"
 2. Create a new directory called `new_dir`.
+###Answer: mkdir new_dir
 3. Delete/Remove the directory `new_dir`.
+###Answer: rm -r new_dir/
 4. Copy the file `sed.txt` from the `lorem` folder and paste it to the folder `lorem-copy` folder.
+###Answer:cp lorem/sed.txt lorem-copy/
 5. Copy the other two files from the `lorem folder` to `lorem-copy` folder in just one line using semicolon `;`.
+###Answer: cp lorem/at.txt lorem-copy/ ; cp lorem/at.txte  lorem-copy/
 6. Show the `sed.txt` file content from the `lorem` folder.
+###Answer:cat lorem/sed.txt
 7. Show the `at.txt` file and `lorem.txt` file contents from `lorem` folder.
+###Answer:cat lorem/at.txt; echo " " ; cat lorem/lorem.txt
 8. Print the first 3 rows in `sed.txt` file from lorem-copy folder.
+###Answer:head -n3 lorem-copy/sed.txt
 9. Print the last 3 rows in `sed.txt` file from lorem-copy folder.
+###Answer:tail -n3 lorem-copy/sed.txttocu
 10. Add `Homo homini lupus.` at the end of `sed.txt` file in the `lorem-copy` folder.
+###Answer:echo "Homo homini lupus" >> lorem-copy/sed.txt
 11. Print the last 3 rows in `sed.txt` file from `lorem-copy` folder. You should see `Homo homini lupus.`.
+###Answer: tail -n3 lorem-copy/sed.txt
 12. `sed` command is used to replace the text in a file. Use the `sed` command to replace all occurances of `et` with `ET` in the file `at.txt` file present in the folder `lorem`. You can use the following link to refer to `sed` commands [https://www.linode.com/docs/guides/manipulate-text-from-the-command-line-with-sed/]
 Check the contents of the sed.txt file using `cat` command.
 13. Find who is the system user. 
