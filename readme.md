@@ -47,15 +47,21 @@ exercises  inputs  lorem  lorem-copy  modules  outputs  README.md
 10. Add `Homo homini lupus.` at the end of `sed.txt` file in the `lorem-copy` folder.
 ### Answer: echo "Homo homini lupus" >> lorem-copy/sed.txt
 11. Print the last 3 rows in `sed.txt` file from `lorem-copy` folder. You should see `Homo homini lupus.`.
-## Answer: tail -n3 lorem-copy/sed.txt
+### Answer: tail -n3 lorem-copy/sed.txt
 12. `sed` command is used to replace the text in a file. Use the `sed` command to replace all occurances of `et` with `ET` in the file `at.txt` file present in the folder `lorem`. You can use the following link to refer to `sed` commands [https://www.linode.com/docs/guides/manipulate-text-from-the-command-line-with-sed/]
+### Answer: sed -i 's/et/ET/g' lorem/at.txt
 Check the contents of the sed.txt file using `cat` command.
+### Answer: cat lorem/at.txt
 13. Find who is the system user. 
-14. Find the current path of the directory you are in.
-15. List all files with the extension `.txt` in lorem folder.
-16. Count the rows in `sed.txt` file from lorem folder. Look concatenate `cat` and `wc` with the pipe `|`.
-17. Count the **files** which start with `lorem` in all directories.
-
+### Answer: whoami
+15. Find the current path of the directory you are in.
+### Answer: pwd
+17. List all files with the extension `.txt` in lorem folder.
+### Answer: 
+19. Count the rows in `sed.txt` file from lorem folder. Look concatenate `cat` and `wc` with the pipe `|`.
+### Answer: 
+21. Count the **files** which start with `lorem` in all directories.
+### Answer: 
 
 ## Bonus
 
