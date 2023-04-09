@@ -56,7 +56,7 @@ exercises  inputs  lorem  lorem-copy  modules  outputs  README.md
 **Answer: whoami**
 15. Find the current path of the directory you are in.  
 **Answer: pwd**
-16. List all files with the extension `.txt` in lorem folder.  
+16. List all files with the extension `.txt` in lorem folder.   
 **Answer: $ ls *.txt (It only works if I am inside the current directory)**
 17. Count the rows in `sed.txt` file from lorem folder. Look concatenate `cat` and `wc` with the pipe `|`.  
 **Answer: cat lorem/sed.txt | wc -l**
